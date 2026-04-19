@@ -1,0 +1,1 @@
+# DocGuard-AI-Forgery-Detector
