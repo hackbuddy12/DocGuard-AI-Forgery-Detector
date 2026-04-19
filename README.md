@@ -51,5 +51,9 @@ Mac: brew install tesseract
 
 Linux: sudo apt-get install tesseract-ocr
 
+🚀 STEP 6 — Add requirements.txt (Already good)
+
+Your file :contentReference[oaicite:2]{index=2} is fine. Just rename correctly.
+
 4. Run the Application
 streamlit run app.py
