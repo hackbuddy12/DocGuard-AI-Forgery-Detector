@@ -37,3 +37,19 @@ Follow these steps to run the application locally:
 ```bash
 git clone [https://github.com/your-username/DocGuard-AI-Document-Forensics.git](https://github.com/your-username/DocGuard-AI-Document-Forensics.git)
 cd DocGuard-AI-Document-Forensics
+
+2. Install dependencies
+Make sure you have Python 3.9+ installed.
+pip install -r requirements.txt
+
+3. Install Tesseract-OCR (Prerequisite)
+You must have Tesseract installed on your system.
+
+Windows: Download the installer from the official UB-Mannheim repository. Ensure the path C:\Program Files\Tesseract-OCR\tesseract.exe exists.
+
+Mac: brew install tesseract
+
+Linux: sudo apt-get install tesseract-ocr
+
+4. Run the Application
+streamlit run app.py
